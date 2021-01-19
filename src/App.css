@@ -1,3 +1,9 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +42,24 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 70vh;
+}
+
+ul {
+  padding: 2rem;
+  margin: 2rem;
+  list-style: none;
+  justify-content: space-between;
+  background-color: #61dafb
+
+
+}  
+
+li{
+  margin:0.5rem;
+  flex-direction: column;
+}  
